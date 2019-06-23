@@ -1,0 +1,88 @@
+* {
+	font-family: Montserrat, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box !important;
+	color: #141414;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+   	background: #6448f0;
+}
+
+ul li {
+	list-style: none;
+}
+
+.flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/********************************************************/
+
+.button {
+	height: 50px;
+	display: block;
+	line-height: 49px;
+	text-align: center;
+	border-radius: 25px;
+	background-color: #546AC9;
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	-webkit-transition: .3s all;
+	transition: .3s all;
+	cursor: pointer;
+	padding: 0 20px;
+	border: none;
+}
+
+.button:hover {
+	box-shadow: 0px 0px 18px #546AC9;
+}
+
+/********************************************************/
+
+.wrapper {
+	padding: 40px 30px;    
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    position: relative;
+}
+
+.block-shadow {
+	box-shadow: 0 3px 6px rgba(0,0,0, .16);
+	padding: 20px;
+	border-radius: 15px;
+	background: #fff;
+}
+
+.block-shadow p {
+	font-size: 22px;
+}
+
+#phone {
+	border: 0;
+	outline: 0;
+	font-size: 25px;
+}
+
+.background {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: -10;
+}
